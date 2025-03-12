@@ -12,7 +12,7 @@
             overflow: hidden;
         }
         canvas {
-            background: url('track.jpg') repeat-y;
+            background: url('track1.png') repeat-y;
             display: block;
             margin: auto;
             max-width: 100%;
@@ -75,7 +75,7 @@
             speedY: 0,
             image: new Image()
         };
-        car.image.src = "car.png";
+        car.image.src = "car1.png";
 
         let obstacles = [];
         let speedY = 6;
@@ -95,7 +95,7 @@
                 dy: speedY,
                 image: new Image()
             };
-            obstacle.image.src = "obstacle.png";
+            obstacle.image.src = "obstacle1.png";
             obstacle.image.onload = () => obstacles.push(obstacle);
         }
 
